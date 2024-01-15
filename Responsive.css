@@ -1,0 +1,922 @@
+html{
+    font-size: 62.5%;
+}
+
+@media (min-width:801px) and (max-width:1000px){
+    /* contact info section */
+
+    .contact {
+        width: 100%;
+        height: auto;
+        background-color: var(--light-green);
+        text-align: center;
+        padding: 7rem 0;
+    }
+    .info-form{
+        font-size: 3rem;
+    }
+
+    /* Skills section */
+
+    .skills {
+        max-width: 100%;
+        height: auto;
+        background-color: var(--light-green);
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 1rem;
+        padding: 10rem 0;
+    }
+
+    .skills img {
+        max-width: 10rem;
+        height: 10rem;
+        border-radius: 50%;
+        transition: all .5s;
+        filter: none;
+    }
+    
+    .skills img:hover {
+        max-width: 15rem;
+        height: 15rem;
+        filter: drop-shadow(8px 8px 10px var(--green));
+    
+    }
+
+}
+
+/* Media query from 701px to 880px */
+
+@media (min-width:701px) and (max-width:880px){
+    /* home section */
+
+    .knowledge> :nth-child(1) {
+        font-size: 4rem;
+        font-weight: 600;
+        margin-right: 1rem;
+    }
+    
+    .green {
+        font-size: 4rem;
+        color: var(--green);
+        font-family: sans-serif;
+        font-style: italic;
+    }
+    
+    .knowledge>h2 {
+        font-size: 3rem;
+    }
+
+    /* skills section */
+
+    .skills {
+        max-width: 100%;
+        height: auto;
+        background-color: var(--light-green);
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: .8rem;
+       padding: 10rem 0;
+    }
+    
+    .skills>h1 {
+        font-size: 7rem;
+        color: var(--green);
+        margin-bottom: 4rem;
+    }
+    
+    .first-container {
+        display: flex;
+        gap: 7rem;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 1rem;
+    }
+    
+    .skills img {
+        max-width: 10rem;
+        height: 10rem;
+        border-radius: 50%;
+        transition: all .5s;
+        filter: none;
+    }
+    
+    .skills img:hover {
+        max-width: 15rem;
+        height: 15rem;
+        filter: drop-shadow(8px 8px 10px var(--green));
+    
+    }
+    
+    .first-container h2 {
+        font-size: 2rem;
+        color: rgb(44, 107, 98);
+        font-family: 'Ubuntu', sans-serif;
+    }
+
+    /* Project section */
+
+    .project {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+        text-align: center;
+        height: auto;
+        margin: 2rem 0;
+        padding: 6rem 0;
+    }
+    
+    .project>h1 {
+        font-size: 8rem;
+        /* margin-bottom: 5rem; */
+    }
+    
+    .project a {
+        text-decoration: none;
+        color: black;
+        border: .3rem solid var(--green);
+        padding: 1rem 3rem;
+        border-radius: 2rem;
+        font-family: 'Comfortaa', sans-serif;
+        font-size: 1.5rem;
+        height: 10rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: all 1s;
+    }
+    
+    .project a:hover {
+        background-color: var(--green);
+        color: var(--light-green);
+    }
+    
+    .first-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+        padding: 0 4rem;
+    }
+
+    /* contact info */
+
+    .info-form {
+        max-width: 80%;
+        background-color: aquamarine;
+        height: auto;
+        margin: auto;
+        display: flex;
+        padding: 2rem 0;
+        font-size: 2.5rem;
+        justify-content: center;
+        gap: 4rem;
+        border-radius: 3rem;
+        font-style: italic;
+        font-family: 'Ubuntu', sans-serif;
+        box-shadow: 3px 5px 20px 8px darkolivegreen;
+    }
+    
+}
+
+/* Media query between 571px to 700px */
+@media (min-width:571px) and (max-width:700px){
+    
+    /*/////////////////////////// Navbar ////////////////////////////////////// */
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        padding: 1rem;
+        /* font-size: 2rem; */
+        align-items: center;
+        background-color: rgb(250, 250, 250);
+        width: 100%;
+        position: fixed;
+        gap: .5rem;
+    
+    }
+    
+    .name {
+        display: flex;
+        gap: 0.8rem;
+        font-size: 3rem;
+        padding: 1rem 4rem ;
+        font-weight: 700;
+        transition: all 1s;
+        text-align: center;
+    }
+    
+    .name> :nth-child(2) {
+        color: var(--green);
+    }
+    
+    .name:hover {
+        font-size: 5rem;
+    }
+    
+    .info {
+        display: flex;
+        gap: 7rem;
+        font-size: 2rem;
+        padding-right: 4rem;
+        font-weight: 500;
+        justify-content: center;
+    }
+    
+    .info a {
+        text-decoration: none;
+        color: black;
+        transition: color 1s;
+    }
+    
+    
+    .info .active,
+    .info a:hover {
+        color: var(--green);
+        border-bottom: 3px solid var(--green);
+    }
+
+
+    /*///////////////////////// Home section/////////////////////////////// */
+    
+    .home{
+        padding: 15rem;
+    }
+
+    .home img {
+        max-width: 22rem;
+        height: 22rem;
+        border-radius: 50%;
+        /* overflow: hidden; */
+        transition: all 1s;
+    }
+
+    .img>h2 {
+        font-size: 3rem;
+        margin-top: 1rem;
+        font-weight: 400;
+    }
+    
+    
+    
+    .knowledge> :nth-child(1) {
+        font-size: 5rem;
+        font-weight: 600;
+        margin-right: 1rem;
+    }
+    
+    .green {
+        font-size: 4rem;
+        color: var(--green);
+        font-family: sans-serif;
+        font-style: italic;
+    }
+    
+    
+    .knowledge>h2 {
+        font-size: 4rem;
+    }
+    
+    .hire>h2 {
+        border: .3rem solid darkgreen;
+        padding: .5rem 1rem;
+        border-radius: 5rem;
+        font-size: 3rem;
+        font-family: 'Ubuntu', sans-serif;
+        transition: all 1s;
+    }
+    
+    .hire>h2:hover {
+        background-color: darkkhaki;
+        color: black;
+        box-shadow: .5rem .5rem 1rem lightgreen;
+        border: none;
+    }
+    
+
+    /* skills section */
+
+    .skills {
+        max-width: 100%;
+        height: auto;
+        background-color: var(--light-green);
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 2rem;
+       padding: 10rem 3rem;
+    }
+    
+    .skills>h1 {
+        font-size: 7rem;
+        color: var(--green);
+        margin: 2rem 4rem;
+    }
+    
+    .first-container {
+        display: flex;
+        gap: 4rem;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 1rem;
+    }
+    
+    .skills img {
+        max-width: 7rem;
+        height: 7rem;
+        border-radius: 50%;
+        transition: all .5s;
+        filter: none;
+    }
+    
+    .skills img:hover {
+        max-width: 10rem;
+        height: 10rem;
+        filter: drop-shadow(8px 8px 10px var(--green));
+    
+    }
+    
+    .first-container h2 {
+        font-size: 2rem;
+        color: rgb(44, 107, 98);
+        font-family: 'Ubuntu', sans-serif;
+    }
+
+    /*///////////////////////////// Projects/////////////////////////////////////// */
+
+    .project {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+        text-align: center;
+        height: auto;
+        margin: 4rem 0;
+        padding: 10rem 3rem;
+    }
+    
+    .project>h1 {
+        font-size: 8rem;
+        /* margin-bottom: 5rem; */
+    }
+    
+    .project a {
+        text-decoration: none;
+        color: black;
+        border: .3rem solid var(--green);
+        padding: 1rem 3rem;
+        border-radius: 2rem;
+        font-family: 'Comfortaa', sans-serif;
+        font-size: 1.5rem;
+        height: 10rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: all 1s;
+    }
+    
+    .project a:hover {
+        background-color: var(--green);
+        color: var(--light-green);
+    }
+    
+    .first-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+        padding: 2rem 4rem;
+    }
+
+
+    /*///////////////////////////////// contact info... //////////////////////////////////////////////////////////////////*/
+
+    
+    .info-form {
+        max-width: 90%;
+        background-color: aquamarine;
+        height: auto;
+        margin: auto;
+        display: flex;
+        padding: 2rem 0;
+        font-size: 2.5rem;
+        justify-content: center;
+        gap: 4rem;
+        border-radius: 3rem;
+        font-style: italic;
+        font-family: 'Ubuntu', sans-serif;
+        box-shadow: 3px 5px 20px 8px darkolivegreen;
+    }
+}
+
+/* Media query between 481 px to 570px */
+
+@media (min-width:481px) and (max-width:570px){
+
+   
+     /*/////////////////////////// Navbar ////////////////////////////////////// */
+
+     nav {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        padding: 1rem;
+        /* font-size: 2rem; */
+        align-items: center;
+        background-color: rgb(250, 250, 250);
+        width: 100%;
+        position: fixed;
+        gap: .5rem;
+    
+    }
+    
+    .name {
+        display: flex;
+        gap: 0.8rem;
+        font-size: 3rem;
+        padding: 1rem 4rem ;
+        font-weight: 700;
+        transition: all 1s;
+        text-align: center;
+    }
+    
+    .name> :nth-child(2) {
+        color: var(--green);
+    }
+    
+    .name:hover {
+        font-size: 5rem;
+    }
+    
+    .info {
+        display: flex;
+        gap: 4rem;
+        font-size: 2rem;
+        padding-right: 4rem;
+        font-weight: 500;
+        justify-content: center;
+    }
+    
+    .info a {
+        text-decoration: none;
+        color: black;
+        transition: color 1s;
+    }
+    
+    
+    .info .active,
+    .info a:hover {
+        color: var(--green);
+        border-bottom: 3px solid var(--green);
+    }
+
+
+    /*///////////////////////// Home section/////////////////////////////// */
+    
+    .home {
+    /* margin-top: 2rem; */
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 15rem ;
+    text-align: center;
+    gap: 1rem;
+}
+
+    .home img {
+        max-width: 17rem;
+        height: 17rem;
+        border-radius: 50%;
+        /* overflow: hidden; */
+        transition: all 1s;
+    }
+
+    .home img:hover {
+        border-top: 10px solid red;
+        border-bottom: 10px solid blue;
+        max-width: 23rem;
+        height: 23rem;
+    }
+
+    .img>h2 {
+        font-size: 3rem;
+        margin-top: 0.5rem;
+        font-weight: 400;
+    }
+    
+    
+    
+    .knowledge> :nth-child(1) {
+        font-size: 3rem;
+        font-weight: 600;
+        margin-right: 1rem;
+    }
+    
+    .green {
+        font-size: 3.5rem;
+        color: var(--green);
+        font-family: sans-serif;
+        font-style: italic;
+    }
+    
+    
+    .knowledge>h2 {
+        font-size: 3rem;
+    }
+    
+    .hire>h2 {
+        border: .3rem solid darkgreen;
+        padding: .5rem 3rem;
+        border-radius: 5rem;
+        font-size: 2rem;
+        font-family: 'Ubuntu', sans-serif;
+        transition: all 1s;
+    }
+    
+    .hire>h2:hover {
+        background-color: darkkhaki;
+        color: black;
+        box-shadow: .5rem .5rem 1rem lightgreen;
+        border: none;
+    }
+
+    /* skills section */
+
+    .skills {
+        max-width: 100%;
+        height: auto;
+        background-color: var(--light-green);
+        display: flex;
+        /* flex-direction: column; */
+        text-align: center;
+        gap: 3rem;
+       padding: 10rem 3rem;
+    }
+    
+    .skills>h1 {
+        font-size: 7rem;
+        color: var(--green);
+        margin: 2rem 4rem;
+    }
+    
+    .first-container {
+        display: flex;
+        gap: 4rem;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 1rem;
+    }
+    
+    .skills img {
+        max-width: 6rem;
+        height: 6rem;
+        border-radius: 50%;
+        transition: all .5s;
+        filter: none;
+    }
+    
+    .skills img:hover {
+        max-width: 9rem;
+        height: 9rem;
+        filter: drop-shadow(8px 8px 10px var(--green));
+    
+    }
+    
+    .first-container h2 {
+        font-size: 1.5rem;
+        color: rgb(44, 107, 98);
+        font-family: 'Ubuntu', sans-serif;
+    }
+
+    /*///////////////////////////// Projects/////////////////////////////////////// */
+
+    .project {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 3rem;
+        text-align: center;
+        height: auto;
+        margin: 4rem 0;
+        padding: 10rem 3rem;
+    }
+    
+    .project>h1 {
+        font-size: 6rem;
+        /* margin-bottom: 5rem; */
+    }
+    
+    .project a {
+        text-decoration: none;
+        color: black;
+        border: .3rem solid var(--green);
+        padding: 1rem 2rem;
+        border-radius: 2rem;
+        font-family: 'Comfortaa', sans-serif;
+        font-size: 1.5rem;
+        height: 10rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: all 1s;
+    }
+    
+    .project a:hover {
+        background-color: var(--green);
+        color: var(--light-green);
+    }
+    
+    .first-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        padding: 2rem 4rem;
+    }
+
+
+    /*///////////////////////////////// contact info... //////////////////////////////////////////////////////////////////*/
+
+    
+    .info-form {
+        max-width: 90%;
+        background-color: aquamarine;
+        height: auto;
+        margin: auto;
+        display: flex;
+        padding: 2rem 0;
+        font-size: 2rem;
+        justify-content: center;
+        gap: 3rem;
+        border-radius: 3rem;
+        font-style: italic;
+        font-family: 'Ubuntu', sans-serif;
+        box-shadow: 3px 5px 20px 8px darkolivegreen;
+    }
+}
+
+/*  */
+
+@media (max-width:480px){
+     
+
+    
+     /*/////////////////////////// Navbar ////////////////////////////////////// */
+
+     nav {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        padding: 1rem;
+        /* font-size: 2rem; */
+        align-items: center;
+        background-color: rgb(250, 250, 250);
+        width: 100%;
+        position: fixed;
+        gap: .5rem;
+    
+    }
+    
+    .name {
+        display: flex;
+        gap: 0.8rem;
+        font-size: 3.3rem;
+        padding: 1rem 4rem ;
+        font-weight: 700;
+        transition: all 1s;
+        text-align: center;
+    }
+    
+    .name> :nth-child(2) {
+        color: var(--green);
+    }
+    
+    .name:hover {
+        font-size: 5rem;
+    }
+    
+    .info {
+        display: flex;
+        gap: 3rem;
+        font-size: 2rem;
+        padding-right: 4rem;
+        font-weight: 500;
+        justify-content: center;
+        margin-left: 2rem;
+    }
+    
+    .info a {
+        text-decoration: none;
+        color: black;
+        transition: color 1s;
+    }
+    
+    
+    .info .active,
+    .info a:hover {
+        color: var(--green);
+        border-bottom: 3px solid var(--green);
+    }
+
+
+    /*///////////////////////// Home section/////////////////////////////// */
+    
+    .home {
+    /* margin-top: 2rem; */
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 15rem ;
+    text-align: center;
+    gap: 1rem;
+}
+
+    .home img {
+        max-width: 17rem;
+        height: 17rem;
+        border-radius: 50%;
+        /* overflow: hidden; */
+        transition: all 1s;
+    }
+
+    .home img:hover {
+        border-top: 10px solid red;
+        border-bottom: 10px solid blue;
+        max-width: 23rem;
+        height: 23rem;
+    }
+
+    .img>h2 {
+        font-size: 3rem;
+        margin-top: 0.5rem;
+        font-weight: 400;
+    }
+    
+    
+    
+    .knowledge> :nth-child(1) {
+        font-size: 3rem;
+        font-weight: 600;
+        margin-right: 1rem;
+    }
+    
+    .green {
+        font-size: 3.5rem;
+        color: var(--green);
+        font-family: sans-serif;
+        font-style: italic;
+    }
+    
+    
+    .knowledge>h2 {
+        font-size: 3rem;
+    }
+    
+    .hire>h2 {
+        border: .3rem solid darkgreen;
+        padding: .5rem 3rem;
+        border-radius: 5rem;
+        font-size: 2rem;
+        font-family: 'Ubuntu', sans-serif;
+        transition: all 1s;
+    }
+    
+    .hire>h2:hover {
+        background-color: darkkhaki;
+        color: black;
+        box-shadow: .5rem .5rem 1rem lightgreen;
+        border: none;
+    }
+
+    /* skills section */
+
+    .skills {
+        max-width: 100%;
+        height: auto;
+        background-color: var(--light-green);
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 2rem;
+       padding: 10rem 5rem;
+    }
+    
+    .skills>h1 {
+        font-size: 5rem;
+        color: var(--green);
+        margin: 2rem 4rem;
+    }
+    
+    .first-container {
+        display: flex;
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 1rem;
+    }
+    
+    .skills img {
+        max-width: 6rem;
+        height: 6rem;
+        border-radius: 50%;
+        transition: all .5s;
+        filter: none;
+    }
+    
+    .skills img:hover {
+        max-width: 9rem;
+        height: 9rem;
+        filter: drop-shadow(8px 8px 10px var(--green));
+    
+    }
+    
+    .first-container h2 {
+        font-size: 1.5rem;
+        color: rgb(44, 107, 98);
+        font-family: 'Ubuntu', sans-serif;
+    }
+
+    /*///////////////////////////// Projects/////////////////////////////////////// */
+
+    .project {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 3rem;
+        text-align: center;
+        height: auto;
+        margin: 5rem 0;
+        padding: 10rem 2rem;
+    }
+    
+    .project>h1 {
+        font-size: 6rem;
+        /* margin-bottom: 5rem; */
+    }
+    
+    .project a {
+        text-decoration: none;
+        color: black;
+        border: .3rem solid var(--green);
+        padding: 1rem 1rem;
+        border-radius: 2rem;
+        font-family: 'Comfortaa', sans-serif;
+        font-size: 1rem;
+        height: 7rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: all 1s;
+    }
+    
+    .project a:hover {
+        background-color: var(--green);
+        color: var(--light-green);
+    }
+    
+    .first-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        padding: 2rem 4rem;
+    }
+
+
+    /*///////////////////////////////// contact info... //////////////////////////////////////////////////////////////////*/
+
+    
+    .info-form {
+        max-width: 90%;
+        background-color: aquamarine;
+        height: auto;
+        margin: auto;
+        display: flex;
+        padding: 2rem 0;
+        font-size: 1.5rem;
+        justify-content: center;
+        gap: 3rem;
+        border-radius: 3rem;
+        font-style: italic;
+        font-family: 'Ubuntu', sans-serif;
+        box-shadow: 3px 5px 20px 8px darkolivegreen;
+    }
+
+}
