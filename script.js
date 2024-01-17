@@ -10,6 +10,8 @@ tl.from("nav",{
     height:"20px",
     width:"20px",
     overflow : "hidden",
+    position:"fixed",
+    zIndex:111
     // repeat : -1
 });
 
