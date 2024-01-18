@@ -52,6 +52,42 @@ gsap.from(".skills h1 ,.first-container",{
     y:50,
     scrollTrigger:{
         trigger : "#skills",
+        scroller:"body",
+        start:"top 70%",
     }
 })
+
+// Project Section
+
+gsap.from(".project h1 , .first-box",{
+    duration:0.5,
+    opacity:0,
+    stagger:1,
+    y:-50,
+    scrollTrigger:{
+        trigger : "#projects",
+        scroller:"body",
+        start:"top 70%",
+    }
+})
+
+// contact section
+
+gsap.from(".contact h1 , .info-form , .left-container,.mid-container,.right-container",{
+    duration:1,
+    opacity:0,
+    stagger:.5,
+    y:-50,
+    width:"10px",
+    // backgroundColor:"white",
+    // borderRadius:"100%",
+    scrollTrigger:{
+        trigger : "#contact",
+        scroller:"body",
+        start:"top 70%",
+    }
+})
+
+
+
 
