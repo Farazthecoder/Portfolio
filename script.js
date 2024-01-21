@@ -1,5 +1,13 @@
+
+
 let tl = gsap.timeline();
 
+tl.to(".shutter",{
+    top:"-100vh",
+    duration:3,
+    delay:1,
+    opacity:0,
+})
 
 tl.from("nav",{
     y:700,
