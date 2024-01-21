@@ -6,7 +6,7 @@ tl.to(".shutter",{
     top:"-100vh",
     duration:3,
     delay:1,
-    opacity:0,
+    borderRadius:"20%"
 })
 
 tl.from("nav",{
@@ -36,7 +36,7 @@ tl.from(".img",{
 gsap.from(".knowledge",{
     opacity:0,
     duration:3,
-    delay:1,
+    delay:2,
     scale:-1,
     // backgroundColor:"black",
 })
