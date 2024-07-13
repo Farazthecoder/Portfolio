@@ -245,6 +245,7 @@ nav {
 
 .project a {
     text-decoration: none;
+    width: 25vw;
     color: black;
     border: .3rem solid var(--green);
     padding: 1rem;
